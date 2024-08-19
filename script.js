@@ -20,4 +20,4 @@ if (playerChoose === adversary) {
   result = "LOSER!";
 }
 
-console.log(result);
+// console.log(result);
