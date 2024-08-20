@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+h1 {
+  padding: 10px;
+}
+
+h2 {
+  padding: 20px;
+}
+
+.sci-ro-pa {
+  width: 400px;
+  padding: 10px;
+}
+
+.btn-get-start {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
