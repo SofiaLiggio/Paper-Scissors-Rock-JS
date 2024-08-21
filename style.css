@@ -29,8 +29,13 @@ h2 {
 }
 
 .btn-get-start {
-  padding: 50px;
   display: flex;
+  font-size: 20px;
+  width: 200px;
+  padding: 15px 20px;
+  background: black;
+  color: #fff;
   justify-content: center;
   align-items: center;
+  border: none;
 }
