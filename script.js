@@ -32,3 +32,6 @@ while (true) {
     break;
   }
 }
+
+// BUTTON
+function playGame() {}
