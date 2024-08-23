@@ -34,4 +34,13 @@ while (true) {
 }
 
 // BUTTON
-function playGame() {}
+const btn = document.getElementById("btn");
+btn.addEventListener("click", startGame);
+
+function startGame() {
+  btn.style.display = "none";
+  let score = 0;
+  const gameArea = document.createElement("div");
+  gameArea.id = "gameArea";
+  document.body.appendChild(gameArea);
+}
