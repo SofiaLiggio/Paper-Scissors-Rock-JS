@@ -35,14 +35,42 @@ h2 {
 }
 
 #btn {
-  display: flex;
+  display: inline-block;
   font-size: 20px;
   width: 180px;
   height: 70px;
-  padding: 30px 20px;
+  padding: 10px 20px;
   background: black;
   color: #fff;
-  justify-content: center;
-  align-items: center;
   border: none;
+  cursor: pointer;
+}
+
+.win {
+  color: green;
+}
+
+.lose {
+  color: red;
+}
+
+.draw {
+  color: yellow;
+}
+
+#gameArea {
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+@media (max-width: 600px) {
+  .sci-ro-pa {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .btn-get-start {
+    padding-left: 0;
+    justify-content: center;
+  }
 }
