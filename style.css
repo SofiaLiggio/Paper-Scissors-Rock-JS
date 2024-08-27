@@ -55,7 +55,7 @@ h2 {
 }
 
 .draw {
-  color: yellow;
+  color: blue;
 }
 
 #gameArea {
@@ -73,4 +73,16 @@ h2 {
     padding-left: 0;
     justify-content: center;
   }
+}
+
+#again {
+  display: inline-block;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  padding: 10px 20px;
+  background: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
