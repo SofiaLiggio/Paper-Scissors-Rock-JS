@@ -36,15 +36,15 @@ function playGame() {
 
   displayResult(result, resultClass);
 
-  // playAgain.addEventListener("click", startGame);
+  playAgain.addEventListener("click", startGame);
 
-  // let playAgain = confirm("DO YOU WANT CONTINUE PLAYING?");
-  // if (playAgain) {
-  //   playGame();
-  // } else {
-  //   btn.style.display = "inline";
-  //   gameArea.innerHTML = "";
-  // }
+  let playAgain = confirm("DO YOU WANT CONTINUE PLAYING?");
+  if (playAgain) {
+    playGame();
+  } else {
+    btn.style.display = "inline";
+    gameArea.innerHTML = "";
+  }
 }
 function displayResult(result, resultClass) {
   let resultElement = document.createElement("p");
