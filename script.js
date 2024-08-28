@@ -38,20 +38,26 @@ function playGame() {
 
   playAgain.addEventListener("click", startGame);
 
-  let playAgain = confirm("DO YOU WANT CONTINUE PLAYING?");
-  if (playAgain) {
-    playGame();
-  } else {
-    btn.style.display = "inline";
-    gameArea.innerHTML = "";
-  }
+  // let playAgain = confirm("DO YOU WANT CONTINUE PLAYING?");
+  // if (playAgain) {
+  //   playGame();
+  // } else {
+  //   btn.style.display = "inline";
+  //   gameArea.innerHTML = "";
+  // }
 }
 function displayResult(result, resultClass) {
   let resultElement = document.createElement("p");
   resultElement.textContent = result;
   resultElement.className = resultClass;
   gameArea.appendChild(resultElement);
+  playAgain.style.display = "inline-block";
 }
+
+function clickAgainButton() {
+  playAgain.addEventListener("click", startGame);
+}
+clickAgainButton();
 
 function startGame() {
   btn.style.display = "none";
